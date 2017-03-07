@@ -1,0 +1,94 @@
+body{
+    background-color:#c0c0c0;
+}
+header{
+    padding:10px 40px;
+    color:white;
+    background-color:black;
+}
+body>div,aside{
+    margin:0 20px 20px 20px;
+    background-color:white;   
+    border:2px;
+    padding:20px;
+}
+header h1,header ul,header li{
+    display:inline;
+}
+header ul{
+    float:right;
+}
+h3,address{
+    color:#c0c0c0;
+}
+li{
+    list-style:none;
+}
+#img div{
+    width:200px;
+    height:200px;
+    margin: 20px;
+    border:1px solid grey;
+    padding:10px;        
+    text-align:center;
+    position:relative;
+}
+#img div img{
+    width:180px;
+    margin:20px auto;
+}
+table{
+    width:100%;
+    border-right:1px solid;
+    border-bottom:1px solid;
+}
+td,th{
+    border-top:1px solid gray;
+    border-left:1px solid gray;
+}
+th{
+    background-color:black;
+    color:white;
+    text-align:left;
+}
+#graytr{
+    background-color:gray;
+}
+footer{
+    padding:10px 40px;
+    color:white;
+    background-color:black;
+    text-align:center;
+}
+aside h2{
+    border-left:2px solid gray;
+    text-indent: 1em;
+}
+form>div{
+      width:100%
+}
+form>div{
+    width:100%;
+    margin:1.8em;
+}
+form>div>div{
+    width:40%;
+    display:inline-block;
+}
+.textr{
+    text-align:right;
+}
+.tishi{
+    padding-left:40%;
+    color:grey;
+}
+#btn{
+    display:block;
+    width:100%;
+    height:1.8em;
+    text-align:center;
+    background-color: blue;
+    color:white;
+}
+
+
