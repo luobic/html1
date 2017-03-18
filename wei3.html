@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>三栏式布局</title>
+    <style>
+    .container{
+        position:relative;    
+        padding:20px;
+        margin:20px;
+        background-color:#eee;
+        border:1px solid #999;
+        min-height:430px;
+    }
+    .left{
+       position:absolute;
+       width:200px;  
+       border:1px solid #999;
+       background-color:white;
+       padding:20px;
+    }
+    section{
+        margin-left:260px;
+        margin-right:140px;
+        border:1px solid #999;
+        padding:20px;
+        background-color:white;
+    }
+    .right{
+        position:absolute;
+        right:0px;
+        top:0px;
+        width:120px;
+        margin:20px;
+        border:1px solid #999;
+        background-color:white;
+    }
+    .logo{
+        background-color:#eee;
+        border:1px solid #999;
+        padding:20px;
+        width:40%;
+        float:left;     
+    }
+    img{
+        width:100%;
+    }
+    li{
+        list-style:none;
+        width:80px;
+        height:80px;
+        background-color:#eee;
+        border:1px solid #999;
+        margin:20px;
+    }
+    ul{
+        padding:0px;
+        margin:0px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class = "left">    
+            <div class="logo">
+            <img src="http://auth.bupt.edu.cn/authserver/bupt/images/logo.png" />
+            </div>
+            团队名称
+        </nav>             
+        <section>
+            关于你们团队的介绍 <br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+        </section> 
+        <nav class="right">
+            <ul>
+                <li class="li"><img src="https://wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=60&height=60&type=sns&_input_charset=UTF-8" /></li>
+                <li class="li"><img src="https://wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=60&height=60&type=sns&_input_charset=UTF-8" /></li>
+                <li class="li"><img src="https://wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=60&height=60&type=sns&_input_charset=UTF-8" /></li>
+                <li class="li"><img src="https://wwc.alicdn.com/avatar/getAvatar.do?userNick=&width=60&height=60&type=sns&_input_charset=UTF-8" /></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
